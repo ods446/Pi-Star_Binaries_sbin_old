@@ -111,7 +111,7 @@ else
 fi
 curl --fail -o ${DMRIDFILE} -s http://www.pistar.jednoduse.cz/downloads/DMRIds.dat --user-agent "Pi-Star_${pistarCurVersion}"
 curl --fail -o ${P25HOSTS} -s http://www.pistar.uk/downloads/P25_Hosts.txt --user-agent "Pi-Star_${pistarCurVersion}"
-curl --fail -o ${YSFHOSTS} -s http://www.pistar.uk/downloads/YSF_Hosts.txt --user-agent "Pi-Star_${pistarCurVersion}"
+curl --fail -o ${YSFHOSTS} -s http://www.pistar.jednoduse.cz/YSF_Hosts.txt --user-agent "Pi-Star_${pistarCurVersion}"
 curl --fail -o ${FCSHOSTS} -s http://www.pistar.uk/downloads/FCS_Hosts.txt --user-agent "Pi-Star_${pistarCurVersion}"
 #curl --fail -s http://www.pistar.uk/downloads/USTrust_Hosts.txt --user-agent "Pi-Star_${pistarCurVersion}" >> ${DExtraHOSTS}
 curl --fail -o ${XLXHOSTS} -s http://www.pistar.uk/downloads/XLXHosts.txt --user-agent "Pi-Star_${pistarCurVersion}"
